@@ -2,7 +2,6 @@
 int numberA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Веведите целое число B");
 int numberB = Convert.ToInt32(Console.ReadLine());
-int max =0;
 
 {
     if(numberA > numberB)
