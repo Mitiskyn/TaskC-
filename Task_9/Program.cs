@@ -14,3 +14,5 @@ int secondDigit = number % 10;
  Console.WriteLine($"Найбольшая цифтра числа ->{firstDigit}");
  else
   Console.WriteLine($"Найбольшая цифтра числа ->{secondDigit}");
+int maxDigit = firstDigit > secondDigit ? firstDigit : secondDigit;
+Console.WriteLine($"найбольшая цифра числа ->{maxDigit}");
