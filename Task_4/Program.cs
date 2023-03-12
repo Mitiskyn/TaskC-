@@ -4,11 +4,11 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-Console.Write("Веведите целое число A");
+Console.Write("Веведите число A");
 int numberA = Convert.ToInt32(Console.ReadLine());
-Console.Write("Веведите целое число B");
+Console.Write("Веведите число B");
 int numberB = Convert.ToInt32(Console.ReadLine());
-Console.Write("Веведите целое число C");
+Console.Write("Веведите число C");
 int numberC = Convert.ToInt32(Console.ReadLine());
 int max = numberA;
 
