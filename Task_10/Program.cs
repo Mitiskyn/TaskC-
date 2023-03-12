@@ -12,7 +12,7 @@ int ShowSecondNumber(int number)
 
 Console.WriteLine("Введите Трехзначное число");
 int number = Convert.ToInt32(Console.ReadLine());
-if(number > 99 && number < 1000)
+if(number >= 99 && number <= 1000)
 {
 int secondNumber = ShowSecondNumber(number);
 Console.WriteLine($"Вторая цифра трехзначного числа {secondNumber}");
