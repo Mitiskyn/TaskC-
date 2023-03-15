@@ -15,7 +15,7 @@ Console.WriteLine("Не является пятизначным числом");
 else
 {  bool palindrome = Palindrome(number);
     Console.WriteLine();
-    Console.WriteLine(palindrome ? "Да" : "Нет");
+    Console.WriteLine(palindrome ? "Число является палиндромом" : "Число не является палиндромом");
 }
     
     
