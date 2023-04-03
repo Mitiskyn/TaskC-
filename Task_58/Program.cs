@@ -25,9 +25,12 @@ Console.WriteLine("Матрица B:");
 PrintMatrix(array2dB);
 Console.WriteLine();
 
-Console.WriteLine("Результаты двух матриц будет:");
-PrintMatrix(matrixMultiply);
-
+if (array2dA.GetLength(1) == array2dB.GetLength(0))
+{
+    Console.WriteLine("Произведение двух матрица будет:");
+    PrintMatrix(matrixMultiply);
+}
+else Console.WriteLine("Не возможно перемножить матрицы");
 
 int[,] MatrixMultiply(int[,] matrixA, int[,] matrixB)
 {
