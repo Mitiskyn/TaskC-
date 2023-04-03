@@ -11,12 +11,12 @@
 Console.Clear();
 
 Console.WriteLine("Вводим кол-во строчек:");
-int m = Convert.ToInt32(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Вводим кол-во столбиков:");
-int n = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
 
 
-int[,] array2d = CreateMatrixRndInt(m, n, 0, 10);
+int[,] array2d = CreateMatrixRndInt(a, b, 0, 10);
 
 PrintMatrix(array2d);
 Console.WriteLine();
